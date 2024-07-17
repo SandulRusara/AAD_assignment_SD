@@ -24,4 +24,20 @@ Objects can be saved to files or databases and restored later, preserving the st
 
 
 
+Mechanism of Serialization and Deserialization :-
 
+--Serialization --
+
+The object is converted into a format suitable for storage or transmission.
+
+This involves writing the object's state to a byte stream or another suitable format.
+
+In Java this is typically done using ObjectOutputStream for byte streams.
+
+--Deserialization--
+
+The stored or transmitted data is read and converted back into an object.
+
+This involves reconstructing the object from the serialized data.
+
+In Java this is typically done using ObjectInputStream for byte streams.
